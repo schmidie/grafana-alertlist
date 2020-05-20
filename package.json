@@ -1,0 +1,9 @@
+{
+  "name": "alertlist",
+  "version": "1.0.0",
+  "description": "grafana alertlist",
+  "main": "module.ts",
+  "repository": "git@github.com:schmidie/grafana-alertlist.git",
+  "author": "2toschmid@googlemail.com",
+  "license": "MIT"
+}
