@@ -1,7 +1,7 @@
 {
 	"type": "panel",
 	"name": "Alert list 2",
-	"id": "alertlist",
+	"id": "alertlist2",
 	"skipDataQuery": true,
 	"info": {
 		"description": "Shows list of alerts and their current status",
