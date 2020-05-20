@@ -1,9 +1,18 @@
 {
-  "name": "alertlist",
-  "version": "1.0.0",
-  "description": "grafana alertlist",
-  "main": "module.ts",
-  "repository": "git@github.com:schmidie/grafana-alertlist.git",
-  "author": "2toschmid@googlemail.com",
-  "license": "MIT"
+	"name": "alertlist",
+	"version": "1.0.0",
+	"description": "grafana alertlist",
+	"main": "module.ts",
+	"repository": "git@github.com:schmidie/grafana-alertlist.git",
+	"author": "2toschmid@googlemail.com",
+	"license": "MIT",
+	"scripts": {
+		"build": "grafana-toolkit plugin:build",
+		"test": "grafana-toolkit plugin:test",
+		"dev": "grafana-toolkit plugin:dev",
+		"watch": "grafana-toolkit plugin:dev --watch"
+	},
+	"dependencies": {
+		"@grafana/toolkit": "^7.0.0"
+	}
 }
